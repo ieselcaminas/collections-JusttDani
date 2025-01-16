@@ -24,7 +24,7 @@ public class RegalosEnTuCalle {
                 }
             }
             b.add(direccion);
-            a.remove(new Integer(direccion));
+            a.remove(Integer.valueOf(direccion));
             n = direccion;
         }
         return b;
