@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Apellido_A {
+public class Apellido {
     public static void main(String[] args) {
         ArrayList<persona> personas=new ArrayList<>();
         persona p=new persona("Dani","Tejedor",2005);
