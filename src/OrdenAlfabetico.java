@@ -3,9 +3,9 @@ import java.util.List;
 public class OrdenAlfabetico {
     public static void main(String[] args) {
         List<persona> personas= Arrays.asList(
-                new persona("Abel","Sabater",2006),
-                new persona("Ximo","Alcacer",1954),
-                new persona("Ana","Alvarez",2015)
+                new persona("Dani","Tejedor",2005),
+                new persona("papad","tekel",1999),
+                new persona("sun","alugna",2025)
         );
         personas.stream().
                 map(persona::getFirstName).
